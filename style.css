@@ -26,13 +26,11 @@ main {
 }
 
 .city-container:first-child .overlay {
-  width: 100%;
-  height: 100%;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
   /* background-color: hsla(0, 0%, 100%, 0.3); */
   background-color: hsla(150, 100%, 50%, 0.8);
   position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .city-img {
