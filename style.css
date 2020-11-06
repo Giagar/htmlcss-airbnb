@@ -1,0 +1,40 @@
+/* ----Generic */
+html {
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* ----/Generic */
+
+/* ----Main */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+/* ----/Main */
+
+/* ----Blocco */
+.city-container {
+  height: 100vh;
+  padding: 15px 0;
+  position: relative;
+}
+
+.city-img {
+  background: orange;
+  width: 100%;
+  height: 100%;
+}
+
+.city-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ----/Blocco */
