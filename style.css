@@ -25,11 +25,10 @@ main {
   position: relative;
 }
 
-.city-container:first-child .overlay {
+.city-container .overlay {
   width: calc(100% - 30px);
   height: calc(100% - 30px);
-  /* background-color: hsla(0, 0%, 100%, 0.3); */
-  background-color: hsla(150, 100%, 50%, 0.8);
+  background-color: hsla(0, 0%, 100%, 0.3);
   position: absolute;
 }
 
@@ -63,10 +62,9 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 44px;
-  letter-spacing: 10px;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.8);
+  text-shadow: 0px 0px 15px hsla(0, 0%, 0%, 0.9);
   padding: 10px;
   background: hsla(0, 0%, 20%, 0.8);
 }
