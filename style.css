@@ -20,10 +20,25 @@ main {
 
 /* ----Blocco */
 .city-container {
-  height: 100vh;
+  height: calc(100vh/3);
   padding: 15px 15px;
   position: relative;
+  transition: height 0.25s;
 }
+
+/* hover */
+.city-container:hover {
+  height: 100vh;
+}
+
+.city-container:hover .overlay {
+  display: none;
+}
+
+.city-container:hover .city-name {
+  display: none;
+}
+/* /hover */
 
 .city-container .overlay {
   width: calc(100% - 30px);
