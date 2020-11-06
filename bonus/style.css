@@ -67,8 +67,11 @@ main {
   text-shadow: 0px 0px 15px hsla(0, 0%, 0%, 0.9);
   background: hsla(0, 0%, 20%, 0.8);
   border-radius: 4px;
+  width: 400px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
   letter-spacing: 10px;
-  padding: 14px 22px;
 }
 
 .city-name .last-letter {
